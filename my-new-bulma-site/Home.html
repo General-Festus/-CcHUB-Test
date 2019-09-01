@@ -11,109 +11,151 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="css/main.css" type="text/css">
+        <style>
+        .hero {
+            background-image: url(leone-venter-VieM9BdZKFo-unsplash.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        .margin {
+            margin-left: 3%;
+        }
+        .navbar {
+            padding: 10px 0;
+        }
+        .hero-body {
+            padding: 5% 3% 0;
+        }
+        /* .center {
+            display: flex;
+            justify-items: space-around;
+        } */
+        </style>
         <!-- <link rel="stylesheet" href="responsive.css" type="text/css"> -->
     </head>
     <body>
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-            <nav>
-                <div>
-                    <div class="logo">
-                        <a href="#"><figure><img src="./asset 12.svg" alt="#"> </figure></a>
+        <!-- <div class="container"> -->
+            <nav class="navbar is-fixed-top is-mobile is-marginless" role="navigation" aria-label="main navigation">
+                <div class="container has-text-weight-bold">
+                    <div class="navbar-brand">
+                        <a class="navbar-item" href="#">
+                            <img src="./asset 12.svg" width="150" height="28">
+                        </a>
+                        <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false"
+                            data-target="navbarBasicExample">
+                            <span aria-hidden="true"></span>
+                            <span aria-hidden="true"></span>
+                            <span aria-hidden="true"></span>
+                        </a>
                     </div>
-                    <div class="menu">
-                        <a href="#">Plan </a>
-                        <a href="#">Save </a>
-                        <a href="#">Invest</a>
-                        <a href="#">Learn </a>
-                    </div>
-                    <div class="buttons">
-                        <a href="#" class=" button hvr-grow">Sign In</a>
-                        <a href="#" class="button hvr-grow">Register</a>                    
+                    <div id="navbarBasicExample" class="navbar-menu">
+                        <div class="navbar-start center margin">
+                            <a class="navbar-item" href="#">
+                                Plan
+                            </a>
+                            <a class="navbar-item has-background-white" href="#">
+                                Save
+                            </a>
+                            <a class="navbar-item has-background-white" href="#">
+                                Invest
+                            </a><a class="navbar-item has-background-white" href="#">
+                                Learn
+                            </a>
+                        </div>
+                        <div class="navbar-end">
+                            <div class="navbar-item">
+                                <div class="buttons">
+                                    <a class="button is-light" href="#">
+                                        <strong>Sign in</strong>
+                                    </a>
+                                    <a class="button is-primary" href="#">
+                                        Register
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </nav>
-            <header class="hero is-fullheight has-background-black">
-                <div>
-                    <section class="container">
-                        <div class="working">
-                            <div>
-                            <h1>Get your money working</h1>
-                            <p>With impressive interest rates, an app, tools & guides, Cowrywise is the smartest way to plan, save & invest</p>
+                <section class="hero is-fullheight">
+                    <section class="section hero-body">
+                            <div class="container">
+                                <div class="column is-5-desktop is-10-mobile is-offset-1-mobile is-8-tablet">
+                                    <h1 class="title is-1 is-spaced has-text-black">Get your money working</h1>
+                                    <p class="subtitle is-5 has-text-black is-spaced">With impressive interest rates, an app, tools & guides, Cowrywise is the smartest way to plan,
+                                        save & invest</p>
+                                    <div class="columns is-mobile">
+                                        <a href="#"> <figure class="column image is-128x128 "><img src="./asset 14.svg" alt="playstore_image"> </figure></a>
+                                        <a href="#"> <figure class="column image is-128x128"><img src="./asset 15.svg" alt="appstore_image"> </figure></a>
+                                    </div>
+                                </div>
+                                <div class="columns is-fluid is-mobile is-marginless">
+                                    <a href="#"> <figure class="column image is-128x128"><img src="./asset 0.png" alt="plan_image"></figure></a>
+                                    <a href="#"><figure class="column image is-128x128"><img src="./asset 1.png" alt=""> </figure></a>
+                                    <a href="#"><figure class="column image is-128x128"><img src="./asset 2.png" alt=""></figure> </a>
+                                </div>
                             </div>
-                            <div>
-                                <a href="#"><img src="./asset 14.svg" alt="playstore_image"> </a>
-                                <a href="#"><img src="./asset 15.svg" alt="appstore_image"> </a>
-                            </div>
-                        </div>
-                        <div class="logos">
-                            <a href="#"> <img src="./asset 0.png" alt="plan_image"></a>
-                            <a href="#"><img src="./asset 1.png" alt=""> </a>
-                            <a href="#"><img src="./asset 2.png" alt=""> </a>
-                        </div>
-                    </section>
-            </div>
-        </header>
+                </section>
+                </section>
+                </div>
         <main>
-            <section class="first">
-                <div>
-                    <h2>Three steps to financial freedom</h2>
-                    <div class="cards">
-                        <div class="card-1 background video hvr-bob">
-                            <h4>Plan <br> money</h4>
-                            <p>The future can be even brighter but a goal without a plan is just a wish. Use our tools to plan ahead for housing,
-                            education, retirement, family & a lot more.</p>
-                            <a href="#">LEARN MORE <span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 28">
-                                <path stroke-width=".3"
-                                    d="M21.31 14.484L9.602 26.808a.627.627 0 0 1-.912-.009.71.71 0 0 1-.007-.96L19.93 14 8.683 2.16a.71.71 0 0 1 .007-.96.627.627 0 0 1 .912-.008L21.31 13.516a.71.71 0 0 1 0 .968z">
-                                </path>
-                            </svg></span></a>
+            <section class="section is-medium is-marginless" style="background: #F4F8FC;">
+                <div class="container">
+                    <h2 class=" column title has-text-centered is-size-3"> <strong>Three steps to financial freedom </strong></h2>
+                    <div class="columns is-variable">
+                        <div class="video hvr-bob column is-4">
+                            <div class="notification has-background-white">
+                                <h3 class="column title is-size-4 is-spaced">Plan <br> money</h4>
+                                <p class="column subtitle">The future can be even brighter but a goal without a plan is just a wish. Use our tools to plan ahead for housing,
+                                education, retirement, family & a lot more.</p>
+                                <a href="#" class="button is-small has-text-weight-semibold"> LEARN MORE </a>
+                            </div>
                         </div>
-                        <div class="card-1 background-1 video hvr-bob">
-                            <h4>Save <br> money</h4>
-                            <p>You deserve good things. With a whooping 10-15% interest rate per annum, grow your savings on your own terms with our
+                        <div class="video hvr-bob column">
+                            <div class="notification has-background-white">
+                            <h4 class=" column title is-size-4">Save <br> money</h4>
+                            <p class=" column subtitle">You deserve good things. With a whooping 10-15% interest rate per annum, grow your savings on your own terms with our
                                     completely automated process & plans.</p>
-                                <a href="#">LEARN MORE <span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 28">
-                                        <path stroke-width=".3"
-                                            d="M21.31 14.484L9.602 26.808a.627.627 0 0 1-.912-.009.71.71 0 0 1-.007-.96L19.93 14 8.683 2.16a.71.71 0 0 1 .007-.96.627.627 0 0 1 .912-.008L21.31 13.516a.71.71 0 0 1 0 .968z">
-                                        </path>
-                                    </svg></span></a>
+                                <a href="#" class="button is-small has-text-weight-semibold"> LEARN MORE </a>
+                                </div>
                         </div>
-                        <div class="card-1 background-2 video hvr-bob">
-                            <h4>Invest <br> money</h4>
-                            <p>We make investment simpler than it sounds. Invest in mutual funds tailored to you and your financial position, and watch
-                                    the returns keep rolling in.</p>
-                                <a href="#">LEARN MORE <span class="arrow"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 28">
-                                        <path stroke-width=".3"
-                                                d="M21.31 14.484L9.602 26.808a.627.627 0 0 1-.912-.009.71.71 0 0 1-.007-.96L19.93 14 8.683 2.16a.71.71 0 0 1 .007-.96.627.627 0 0 1 .912-.008L21.31 13.516a.71.71 0 0 1 0 .968z">
-                                        </path>
-                                    </svg></span></a>
+                        <div class="video hvr-bob column">
+                            <div class="notification is-4 has-background-white">
+                                <h4 class=" column title is-size-4 is-spaced">Invest <br> money</h4>
+                                <p class=" column subtitle">We make investment simpler than it sounds. Invest in mutual funds tailored to you and your financial position, and watch
+                                        the returns keep rolling in.</p>
+                                    <a href="#" class="button is-small has-text-weight-semibold"> LEARN MORE </a>
+                            </div>
                             </div>
                     </div>
                 </div>
             </section>
-            <section class="second">
-                <div>
-                <figure><img class="video hvr-bob" src="./app-screenshot-investment-platform-nigeria.png" alt="app_screenshot"> </figure>
-                <div class="start">
-                    <h2>Start building wealth in 5 minutes</h2>
-                    <div class="steps">
-                        <div class="one space">
-                            <span class="heading">Create an account</span>
-                            <h6>Sign up for an account with your name, email and phone number.</h6>
-                        </div>
-                        <div class="two space">
-                            <span class="heading">Add a payment method</span>
-                            <h6>Using your debit card, bank account, USSD, QR Code, setup your first plan.</h6>
-                        </div>
-                        <div class="three space">
-                            <span class="heading">Watch your money grow</span>
-                            <h6>Sit back, relax & let your money work for you all day, everyday.</h6>
+            <section class="section">
+                <div class="container">
+                    <div class="columns">
+                        <figure class=" column is-one-quarter-desktop"><img src="./app-screenshot-investment-platform-nigeria.png" alt="app_screenshot"> </figure>
+                        <div class="column">
+                            <h2>Start building wealth in 5 minutes</h2>
+                            <div class="steps">
+                                <div class="one space">
+                                    <span class="heading">Create an account</span>
+                                    <h6>Sign up for an account with your name, email and phone number.</h6>
+                                </div>
+                                <div class="two space">
+                                    <span class="heading">Add a payment method</span>
+                                    <h6>Using your debit card, bank account, USSD, QR Code, setup your first plan.</h6>
+                                </div>
+                                <div class="three space">
+                                    <span class="heading">Watch your money grow</span>
+                                    <h6>Sit back, relax & let your money work for you all day, everyday.</h6>
+                                </div>
+                            </div>
+                            <a href="#" class="button is is-info has-text-weight-bold">SIGN UP NOW</a>
                         </div>
                     </div>
-                    <a href="#" class="button has-text-weight-bold is-">SIGN UP NOW</a>
-                </div>
                 </div>
             </section>
             <section class="third">
@@ -147,7 +189,7 @@
                 <div class="never">
                     <h2>Never out of juice</h2>
                     <p>Saving and investing money with Cowrywise means your money works hard all day, everyday.</p>
-                    <a href="#">START INVESTING TODAY</a>
+                    <a href="#" class="button is-info has-text-weight-bold">START INVESTING TODAY</a>
                 </div>
                 </div>
             </section>
